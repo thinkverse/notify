@@ -1,8 +1,17 @@
-name: Notify
+name: NotifyPlugin
 version: ${project.version}
-main: com.github.thinkverse.notify.Notify
-api-version: 1.13
-prefix: Notify
+main: com.github.thinkverse.notify.NotifyPlugin
+api-version: '1.13'
+prefix: NotifyPlugin
 authors: [thinkverse]
 description: Quick command to notify users
 website: thinkverse.dev
+commands:
+  notify:
+    description: Send a notification to user
+    usage: /<command> <player> <type> <message>
+    permission: notify.use
+permissions:
+  notify.use:
+    description: Gives permission to use /notify
+    default: op
