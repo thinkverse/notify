@@ -1,0 +1,8 @@
+name: Notify
+version: ${project.version}
+main: com.github.thinkverse.notify.Notify
+api-version: 1.13
+prefix: Notify
+authors: [thinkverse]
+description: Quick command to notify users
+website: thinkverse.dev
